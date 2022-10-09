@@ -6,7 +6,7 @@ function loadDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+  xhttp.open("GET", "", true);
   xhttp.send();
 }
 
