@@ -19,20 +19,7 @@ So, in this article, we won’t disable the right click but also all those short
 **Disclaimer:** Inspect element will only be disabled on those pages/posts where the codes are present. That’s why we  **recommend**  you to implement the codes inside your header or somewhere that appears on all pages/posts. Try to avoid using the codes inside your Footer because codes in footers will load after all other contents are loaded, and until the load of the codes, the inspect element won’t be disabled.  
 So, let’s jump inside!
 
-### Step 1 – Disabling Mouse Right Click On Website
 
-To disable mouse right-click, add these codes in your site inside the ‘**<script></script>**‘ tag:
-
-document.addEventListener('contextmenu', function(e){
-e.preventDefault();
-});
-
-Additionally, you can show an alert when your visitors click the mouse right button. To do so, you can use this instead of that code(the same code but alert code inside it):
-
-document.addEventListener('contextmenu', function(e){
-alert("Sorry, right click is disabled to prevent leakage of confidential functions");
-e.preventDefault();
-});
 
 Now follow the next step.
 
