@@ -1,4 +1,4 @@
-﻿# Disable ‘Inspect Element’ And ‘View Page Source’
+# Disable ‘Inspect Element’ And ‘View Page Source’
 ### Step 1 – Disabling Mouse Right Click On Website
 
         document.addEventListener('contextmenu', function(e){
@@ -13,17 +13,17 @@ you can show an alert
     e.preventDefault();
     });
 
-  
-You may want to prevent others from inspecting your website, view source codes, or confidential functions to secure your website or prevent others from duplication your website. And it matters a lot when you spend a lot of time and hard work.  
-So, in this article, we won’t disable the right click but also all those shortcuts that allow a person to inspect your website.  
-**Disclaimer:** Inspect element will only be disabled on those pages/posts where the codes are present. That’s why we  **recommend**  you to implement the codes inside your header or somewhere that appears on all pages/posts. Try to avoid using the codes inside your Footer because codes in footers will load after all other contents are loaded, and until the load of the codes, the inspect element won’t be disabled.  
-So, let’s jump inside!
+  ### Step 2 – Disabling Shortcut key combination that allows inspecting elements
 
 
+There are few shortcuts available to use the ‘**inspect element**‘ or ‘**view page-source**‘ option. Such As:
 
-Now follow the next step.
+-   “Ctrl+Shift+I” for ‘**Inspect Element**‘
+-   “Ctrl+Shift+J” for ‘**Inspect Element**‘ Console panel
+-   “Ctrl+Shift+C” for ‘**Inspect Element**‘ Elements panel
+-   “Ctrl+S” for Saving Website as  **HTML file**
+-   “Ctrl+U” for ‘**View Source Code**‘
 
-### Step 2 – Disabling Shortcut key combination that allows inspecting elements
 
 
 
@@ -50,3 +50,6 @@ code
       }
 
     }
+
+mord tools
+https://closure-compiler.appspot.com/home
